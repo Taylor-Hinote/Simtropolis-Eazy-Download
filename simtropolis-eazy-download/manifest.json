@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Simtropolis Download Helper",
+    "description": "Simplify your Simtropolis downloads with this extension. Easily access download buttons for main forum posts and links. Created by Taylor Hinote.",
+    "author": {
+        "name": "Taylor Hinote",
+        "url": "www.github.com/taylor-hinote"
+    },
+    "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "downloads"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://community.simtropolis.com/files/*"],
+        "js": ["contentScript.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+      "service_worker": "backgroundScript.js"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+  }
+  
