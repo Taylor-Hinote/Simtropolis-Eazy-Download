@@ -37,6 +37,7 @@ Taylor Hinote
 ## Acknowledgments
 
 - Special thanks to the Simtropolis community for inspiration and feedback.
+- My Grandfather, for bothering me on making something for him since he doesn't understand tech and wants to play SC4 with mods
 
 ---
 
